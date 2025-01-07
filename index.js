@@ -1,6 +1,7 @@
 import { Client, GatewayIntentBits } from "discord.js";
 import "dotenv/config";
 
+const prefix = "$"
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
